@@ -6,6 +6,7 @@ import {
 
 import MainGridItem from './MainGridItem';
 import ProductInformation from './ProductInformation';
+import Pricing from './Pricing';
 
 export default function GridLayout() {
 
@@ -22,6 +23,12 @@ export default function GridLayout() {
             <Grid item>
 
                 <ProductInformation />
+
+            </Grid>
+
+            <Grid item>
+
+                <Pricing />
 
             </Grid>
         </Grid>
